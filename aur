@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [[ -d /var/aur ]]
+then
+  cd /var/aur
+  git pull
+else
+  cd /var
+  git clone git://pkgbuild.com/aur.git
+fi
