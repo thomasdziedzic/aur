@@ -6,5 +6,5 @@ then
   git pull
 else
   cd /var
-  git clone git://pkgbuild.com/aur.git
+  git clone git://pkgbuild.com/aur-mirror.git aur
 fi
