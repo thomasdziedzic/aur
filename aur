@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-if [[ -d /var/aur ]]
+if [ -d /var/aur ]
 then
   cd /var/aur
   git pull
